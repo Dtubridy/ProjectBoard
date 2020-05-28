@@ -1,20 +1,14 @@
-import React from "react";
+import React from 'react';
+
+const styles = { height: '40px' };
 
 export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-sm navbar-dark bg-primary mb-4">
-      <div className="container">
+      <div className="container" style={styles}>
         <a className="navbar-brand" href="/">
           Dashboard
         </a>
-        <button
-          className="navbar-toggler"
-          type="button"
-          data-toggle="collapse"
-          data-target="#mobile-nav"
-        >
-          <span className="navbar-toggler-icon" />
-        </button>
       </div>
     </nav>
   );
